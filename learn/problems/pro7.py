@@ -1,0 +1,11 @@
+#Multiplication Table of number skip fifth iteration
+
+num=10
+
+
+for i in range(1,11):
+    if i==5:
+        continue
+    else:
+        print(i,"*",num,"=",i*num)
+        
